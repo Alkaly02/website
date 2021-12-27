@@ -1,0 +1,15 @@
+/*--- navbar ---*/
+/* background: linear-gradient(to right,#4458dc, #854fee) */
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.main-menu .nav-link{
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 0.80em;
+	color: black !important;
+	padding: 0px 15px !important;
+}
+.main-menu a:hover{
+	color: #4458dc !important;
+}
