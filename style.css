@@ -162,6 +162,11 @@ body{
 }
 
 /*### brand-section @media queries*/
+@media(max-width: 757px){
+	.phone-number{
+		font-size: 0.79em;
+	}
+}
 @media(max-width: 632px){
 	#brand .years{
 		padding-left: 5em;
@@ -175,7 +180,7 @@ body{
 	#years{
 		margin-top: 1.5em;
 		display: flex;
-		justify-content: space-between;
+		justify-content: space-around;
 		align-items: flex-start;
 		position: relative;
 		padding: 0.5em 0;
