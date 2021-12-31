@@ -135,6 +135,28 @@ body{
 	font-size: 1em;
 }
 
+/*### projects-section ###*/
+#projects{
+	margin-top: 5em !important;
+}
+#projects .title-h1{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+#projects .btn{
+	margin-top: 2em;
+	font-size: 0.75em;
+	font-weight: bold;
+}
+#projects h4{
+	font-size: 1em;
+	font-weight: bold;
+}
+button:focus, button:active, button:hover, .btn:active{
+	outline: 0px !important;
+	box-shadow: none !important;
+}
+
 
 
 
