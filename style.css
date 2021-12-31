@@ -113,6 +113,32 @@ body{
 	font-weight: 600;	
 }
 
+/*### services-section ###*/
+#services{
+	margin: 2em 0;
+}
+#services h1{
+	font-weight: bold;
+}
+#services .card{
+	background: rgba(218, 235, 255, 0.8);
+	border: none !important;
+	height: 250px;
+}
+#services .img-fluid{
+	display: inline-block;
+	width: 20%;
+	margin: auto;
+	padding-top: 1.5em;
+}
+#services .card h1{
+	font-size: 1em;
+}
+
+
+
+
+
 
 
 
