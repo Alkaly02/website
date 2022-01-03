@@ -177,6 +177,45 @@ button:focus, button:active, button:hover, .btn:active{
 	border-radius: 5px;
 }
 
+/*### subscribe-section ###*/
+#subscribe{
+	background: linear-gradient(to right,#4458dc, #854fee);
+	width: 73%;
+	margin: 4rem auto !important;
+	padding: 3rem;
+	border-radius: 5px;
+	color: whitesmoke;
+}
+#subscribe .col h4{
+	font-weight: bolder;
+}
+#subscribe .col p{
+	font-weight: 500;
+	padding-top: 1em;
+}
+form input{
+	border-radius: 3px;
+	border: 1px solid whitesmoke;
+	color: whitesmoke;
+	font-weight: bold;
+	background: transparent;
+	padding: 0.5em;
+}
+#subscribe .col .email{
+	font-size: 0.9em;
+	width: 45%;
+	padding-left: 0.5em;
+	outline: none;
+}
+#subscribe .col .submit{
+	background-color: whitesmoke;
+	color: black;
+}
+
+form input::placeholder{
+	color: whitesmoke;
+}
+
 
 
 
@@ -265,5 +304,33 @@ button:focus, button:active, button:hover, .btn:active{
 	}
 	.phone-number{
 		font-size: 0.8em;
+	}
+}
+
+/*### subscribe-section @media-queries ###*/
+@media(max-width: 1188px){
+	#subscribe .col .email{
+		width: 65%;
+		padding: 0.5em;
+	}
+}
+@media(max-width: 935px){
+	#subscribe{
+		width: 100%;
+		padding: 3rem 1rem;
+	}
+}
+@media(max-width: 500px){
+	form{
+		display: flex;
+		flex-direction: column;
+	}
+	#subscribe .col .email{
+		width: 95%;
+	}
+	#subscribe .col .submit{
+		width: 40%;
+		margin-top: 0.5em;
+		padding: 0.4em;
 	}
 }
