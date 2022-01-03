@@ -211,9 +211,35 @@ form input{
 	background-color: whitesmoke;
 	color: black;
 }
-
 form input::placeholder{
 	color: whitesmoke;
+}
+
+/*====== footer ======*/
+#footer .logo-img, .socials-icons{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.socials-icons h5{
+	font-size: 1em;
+	font-weight: bolder;
+}
+.socials-icons .social-items a{
+	display: inline-block;
+	font-size: 20px;
+	padding: 1em;
+	color: #667882;
+}
+.socials-icons .social-items a:hover{
+	color: #457DBB;
+}
+.copyrights{
+	margin-top: 1rem;
+	font-weight: 600;
+}
+.copyrights span{
+	color: #667882;
 }
 
 
